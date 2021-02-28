@@ -24,7 +24,7 @@ class App extends Component {
             <div className="App">
                 <HeaderAdmin/>
                 <Route exact path='/' component={makeRouter}/>
-                <Route exact path='/2' component={makeRouter1}/>
+                <Route exact path='/make2' component={makeRouter1}/>
 
                 <Route exact path='/draw/' component={drawRouter}/>                
                 <Route exact path='/video' component={videoRouter}/>
