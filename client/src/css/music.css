@@ -1,0 +1,86 @@
+.main-content{
+    margin-top: 144px;
+    width:100%;
+    z-index: -100;
+    position:static;
+    font-family: sans-serif,'Noto Sans KR';
+}
+
+.main-content>.banner{
+    position: relative;
+    margin-top: 220px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.main-content>.banner>img{
+    width: 100%;
+    height:auto;
+}
+.main-content>.banner>.good_word{
+    width: 1150px;
+    height:auto;
+    align-content: center;
+    position: absolute;
+    left:0;
+    right:0;
+    top:50%;
+    transform: translateY(-40%);
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-size: 36px;
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-family:'Noto Sans KR';
+}
+
+.main-content>.banner>.good_word>span{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.main-content>.banner>.good_word>p{
+    font-weight: 100;
+    font-size:15px;
+    color: rgba(255, 255, 255,0.6);
+    text-shadow: none;
+    line-height:25px;
+    
+}
+
+.main-content>.button{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display:inline-block;
+    font-family: sans-serif,'Noto Sans KR';
+    font-size: 25px;
+    font-weight: 600;
+}
+h4{
+    font-family: sans-serif,'Noto Sans KR';
+}
+.singer{
+    display:block;
+    font-size: 20px;
+
+}
+.player {
+    width:300px;
+    text-align: center;
+    margin:0 30px;
+    margin-bottom: 150px;
+}
+
+.arc{
+    text-align:center;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin : 10% 200px
+}
+.player{
+    display: inline-block;
+}

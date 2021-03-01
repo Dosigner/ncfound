@@ -27,7 +27,7 @@ class Header extends Component {
                         <img id="select" src={select}  alt="" style={{position:"absolute" , left:"0px", display:'flex-inline',zIndex:'1'}}/>
                         <ul className="af">                           
                             <li className="menu-list" id="yes" onClick={e=>{this.changeEffect(1);this.setState({page_num:1});}} onMouseOver={e=>this.changeEffect(1)} onMouseOut={e=>this.changeEffect(this.state.page_num)}>
-                                <Link to={'/'}>
+                                <Link to={'/ncfound'}>
                                     <div className="link-a">
                                         메이킹
                                     </div>

@@ -23,10 +23,10 @@ class App extends Component {
         return (
             <div className="App">
                 <HeaderAdmin/>
-                <Route exact path='/' component={makeRouter}/>
+                <Route exact path='/ncfound' component={makeRouter}/>
                 <Route exact path='/make2' component={makeRouter1}/>
 
-                <Route exact path='/draw/' component={drawRouter}/>                
+                <Route exact path='/draw' component={drawRouter}/>                
                 <Route exact path='/video' component={videoRouter}/>
                 <Route exact path='/letter' component={letterRouter}/>
                 <Route exact path='/music' component={musicRouter}/>

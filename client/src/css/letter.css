@@ -1,0 +1,89 @@
+.main-content{
+    margin-top: 144px;
+    width:100%;
+    z-index: -100;
+    position:static;
+    font-family: sans-serif,'Noto Sans KR';
+}
+
+.main-content>.banner{
+    position: relative;
+    margin-top: 220px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.main-content>.banner>img{
+    width: 100%;
+    height:auto;
+}
+.main-content>.banner>.good_word{
+    width: 1100px;
+    height:auto;
+    align-content: center;
+    position: absolute;
+    left:0;
+    right:0;
+    top:50%;
+    transform: translateY(-40%);
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-size: 36px;
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    line-height: 40px;
+    font-family:'Noto Sans KR';
+}
+
+.main-content>.banner>.good_word>span{
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.main-content>.banner>.good_word>p{
+    font-weight: 100;
+    font-size:15px;
+    color: rgba(255, 255, 255,0.6);
+    text-shadow: none;
+    line-height:25px;
+    
+}
+
+.main-content>.button{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content>.text{
+    align-items: center;
+    width:60%;
+    min-width: 800px;
+    margin:100px auto;
+    padding:40px;
+}
+
+
+.main-content>.text>.intro{
+    width:100%;
+    height:120px;
+}
+
+.main-content>.text>.intro>.title{
+    float:left;
+    font-weight: 700;
+    font-size: 30px;
+    color:#424242;
+    font-family: sans-serif,'Noto Sans KR',-apple-system, BlinkMacSystemFont;
+}
+
+.main-content>.text>.intro>.Author{
+    float: right;
+    font-family: sans-serif,'Noto Sans KR',-apple-system, BlinkMacSystemFont;
+    font-weight: 500;
+}
+
+.main-content>.text>p{
+    font-family: 'Poor Story', cursive;
+    font-size: 16pt;
+}

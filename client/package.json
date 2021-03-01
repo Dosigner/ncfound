@@ -31,7 +31,7 @@
     ]
   },
   
-  "homepage": "https://dosigner.github.io/ncfound/",
+  "homepage":"http://dosigner.github.io/ncfound",
   "browserslist": {
     "production": [
       ">0.2%",

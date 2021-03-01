@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import '../../css/making.css';
+
 import banner_make from '../../img/banner/banner_make.png';
 import Pagination from "../ReactstrapPagination";
 import {Button ,Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap'
@@ -7,6 +7,8 @@ import {UncontrolledCarousel} from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import below from '../../img/menu/below.png'
 import items from './making_content'
+
+import '../../css/making.css';
 
 
 
