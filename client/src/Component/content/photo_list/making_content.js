@@ -105,13 +105,13 @@ const items=[
 	    }
     ],
     [
-	    {src: process.env.PUBLIC_URL + 'img/making/Jelo1.png',
+	    {src: process.env.PUBLIC_URL + '/img/making/Jelo1.png',
 	    altText:'Jelo', caption:'Jelo', header:'크리스마스 트리 만들기',
 	    },
-	    {src: process.env.PUBLIC_URL + 'img/making/Jelo1.png',
+	    {src: process.env.PUBLIC_URL + '/img/making/Jelo1.png',
 		altText:'Jelo',caption:'Jelo',header:'크리스마스 트리 만들기',
 	    },
-	    {src:process.env.PUBLIC_URL + "img/making/Jelo1.png",
+	    {src:process.env.PUBLIC_URL + "/img/making/Jelo1.png",
 		altText:'Jelo',caption:'Jelo',header:'크리스마스 트리 만들기',
 	    }
     ],

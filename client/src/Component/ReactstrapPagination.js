@@ -29,7 +29,9 @@ class ReactstrapModel extends Component{
                     </Link>
                 </PaginationItem>
                 <PaginationItem active={this.state.page_num===3} onClick={e=>this.setState({page_num:3})}>
-                    <PaginationLink href={'/draw'}>3</PaginationLink>
+                    <Link to={'/make3'}>
+                        <PaginationLink>3</PaginationLink>
+                    </Link>
                 </PaginationItem>
                 <PaginationItem onClick={e=>this.setState({page_num:3})}>
                     <PaginationLink last/>

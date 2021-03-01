@@ -6,7 +6,7 @@ import {Button ,Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap'
 import {UncontrolledCarousel} from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import below from '../../img/menu/below.png'
-import items from './drawing_content'
+import items from './photo_list/drawing_content'
 
 
 

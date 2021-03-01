@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {Route} from "react-router-dom"
 import makeRouter from './content/making'
 import makeRouter1 from './content/making2'
-//import makeRouter2 from './content/making3'
+import makeRouter2 from './content/making3'
 //import makeRouter3 from './content/making4'
 
 
@@ -25,6 +25,7 @@ class App extends Component {
                 <HeaderAdmin/>
                 <Route exact path='/ncfound' component={makeRouter}/>
                 <Route exact path='/make2' component={makeRouter1}/>
+                <Route exact path='/make3' component={makeRouter2}/>
 
                 <Route exact path='/draw' component={drawRouter}/>                
                 <Route exact path='/video' component={videoRouter}/>
