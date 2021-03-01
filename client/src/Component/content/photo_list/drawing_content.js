@@ -1,9 +1,9 @@
 const items=[
     [
-	    {src: process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림1.JPG',
+	    {src: process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림1.jpg',
 	    altText:'셀린', caption:'셀린', header:'크루 스카이 그려주기'},
-	    {src: process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림2.JPG'},
-	    {src:process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림3.JPG',}
+	    {src: process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림2.jpg'},
+	    {src:process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림3.jpg',}
     ],
     [
 	    {src: process.env.PUBLIC_URL + '/img/그림/제니 크루 그려주기/제니1.jpg',
@@ -61,9 +61,9 @@ const items=[
         {src:process.env.PUBLIC_URL + '/img/그림/언행_비투비/언행5.jpg'},
     ],
     [
-	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌2.JPG',
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌2.jpg',
 	    altText:'윌&짹짹이', caption:'윌&짹짹이', header:'새 그리기'},
-	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌1.JPG'},
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌1.jpg'},
     ],
     [
 	    {src: process.env.PUBLIC_URL + '/img/그림/언행_세븐틴/언행1.jpg',

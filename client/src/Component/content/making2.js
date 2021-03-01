@@ -59,11 +59,11 @@ class making extends Component{
                     <div className="archieve">
                         <ul className="arc_row">
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(0)} data-text={"민\n마인크래프트 월드 만들기"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/민1.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(0)} data-text={"민\n마인크래프트 월드 만들기"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/민1.JPG'})`}}>
                                 </div>
                             </li>
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(1)} data-text={"마크\n물라스틱 레고 블럭"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/making/마크1.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(1)} data-text={"마크\n물라스틱 레고 블럭"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/making/마크1.JPG'})`}}>
                                 </div>
                             </li>
                             <li className="wrap_arc_item">
@@ -74,7 +74,7 @@ class making extends Component{
 
                         <ul className="arc_row">
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(3)} data-text={"예킹&RJ\n의자 만들기"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/예킹&RJ1.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(3)} data-text={"예킹&RJ\n의자 만들기"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/예킹&RJ1.JPG'})`}}>
                                 </div>
                             </li>
                             <li className="wrap_arc_item">
@@ -89,11 +89,11 @@ class making extends Component{
 
                         <ul className="arc_row">
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(6)} data-text={"메시\n인피니트 볼"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/메시1.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(6)} data-text={"메시\n인피니트 볼"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/메시1.JPG'})`}}>
                                 </div>
                             </li>
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(7)} data-text={"Jake\n빙글빙글 닥터 스트레인지"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/making/jake1.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(7)} data-text={"Jake\n빙글빙글 닥터 스트레인지"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/making/jake1.JPG'})`}}>
                                 </div>
                             </li>
                             <li className="wrap_arc_item">
