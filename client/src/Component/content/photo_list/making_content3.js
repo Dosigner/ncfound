@@ -1,9 +1,8 @@
 const items=[
     [
-	    {src: process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림1.JPG',
-	    altText:'셀린', caption:'셀린', header:'크루 스카이 그려주기'},
-	    {src: process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림2.JPG'},
-	    {src:process.env.PUBLIC_URL + '/img/그림/셀린_스카이 그림/셀린그림3.JPG',}
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/자율주행자동차/자율주행.jpg',
+	    altText:'여름&빵이&김제이', caption:'여름&빵이&김제이', header:'자율주행자동차 만들기'},
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/자율주행자동차/자율주행2.gif'},
     ],
     [
 	    {src: process.env.PUBLIC_URL + '/img/그림/제니 크루 그려주기/제니1.jpg',

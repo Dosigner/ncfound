@@ -59,7 +59,7 @@ class making extends Component{
                     <div className="archieve">
                         <ul className="arc_row">
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(0)} data-text={"닉네임\n작품 설명"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(0)} data-text={"여름&빵이&김제이\n자율주행자동차"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/자율주행.jpg'})`}}>
                                 </div>
                             </li>
                             <li className="wrap_arc_item">

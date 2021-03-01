@@ -112,6 +112,20 @@ class making extends Component{
                             </li>    
                         </ul>
 
+                        <ul className="arc_row">
+                            <li className="wrap_arc_item">
+                                <div className="arc_item 1" onClick={e=>this.toggle(12)} data-text={"닉네임\n그림 제목"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/drawing/.jpg'})`}}>
+                                </div>
+                            </li>
+                            <li className="wrap_arc_item">
+                                <div className="arc_item 1" onClick={e=>this.toggle(13)} data-text={"닉네임\n그림 제목"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/drawing/.jpg'})`}}>
+                                </div>
+                            </li>
+                            <li className="wrap_arc_item">
+                                <div className="arc_item 1" onClick={e=>this.toggle(14)} data-text={"닉네임\n그림 제목"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/drawing/.jpg'})`}}>
+                                </div>
+                            </li>    
+                        </ul>
                     </div>
                     
                     <div className="Pagination">

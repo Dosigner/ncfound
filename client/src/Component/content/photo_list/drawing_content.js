@@ -74,10 +74,19 @@ const items=[
 		{src:process.env.PUBLIC_URL + '/img/그림/언행_세븐틴/언행5.jpg'}
     ],
 	[
-	    {src: process.env.PUBLIC_URL + '/img/그림/IMG_2803.jpg',
-	    altText:'Jelo', caption:'Jelo', header:'크리스마스 트리 만들기'},
-	    {src: process.env.PUBLIC_URL + '/img/그림/IMG_2784.jpg'},
-	    {src:process.env.PUBLIC_URL + '/img/그림/IMG_2783.jpg'}
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌2.jpg',
+	    altText:'윌&짹짹이', caption:'윌&짹짹이', header:'새 그리기'},
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌1.jpg'},
+    ],
+	[
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌2.jpg',
+	    altText:'윌&짹짹이', caption:'윌&짹짹이', header:'새 그리기'},
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌1.jpg'},
+    ],
+	[
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌2.jpg',
+	    altText:'윌&짹짹이', caption:'윌&짹짹이', header:'새 그리기'},
+	    {src: process.env.PUBLIC_URL + '/img/그림/윌 짹짹이_새 그림 그리기/윌1.jpg'},
     ],
 ]
 export default items
