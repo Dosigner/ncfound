@@ -33,52 +33,52 @@ const items=[
 	    }
     ],
     [
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3097.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3097.JPG',
 	    altText:'예킹&RJ', caption:'예킹&RJ', header:'의자 만들기',
 	    },
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3098.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3098.JPG',
 	    },
-	    {src:process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3099.jpg',
+	    {src:process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3099.JPG',
 	    },
-        {src:process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3100.jpg',
+        {src:process.env.PUBLIC_URL + '/img/메이킹/예킹&RJ 의자 만들기/IMG_3100.JPG',
 	    }
     ],
     [
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/펌킨 할로윈/IMG_0939.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/펌킨 할로윈/IMG_0939.JPG',
 	    altText:'펌킨', caption:'펌킨', header:'할로윈 호박 만들기',
 	    },
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/펌킨 할로윈/IMG_0940.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/펌킨 할로윈/IMG_0940.JPG',
 	    },
     ],
     [
-        {src: process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3082.jpg',
+        {src: process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3082.JPG',
 	    altText:'프로핏', caption:'프로핏', header:'손풍기 제작기',
 	    },
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3084.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3084.JPG',
 	    },
-	    {src:process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3085.jpg',
+	    {src:process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3085.JPG',
 	    },
-        {src:process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3086.jpg',
+        {src:process.env.PUBLIC_URL + '/img/메이킹/프로핏_손풍기/IMG_3086.JPG',
 	    }
     ],
     [
-        {src: process.env.PUBLIC_URL + '/img/메이킹/메시_인피니트 볼/IMG_3074.jpg',
+        {src: process.env.PUBLIC_URL + '/img/메이킹/메시_인피니트 볼/IMG_3074.JPG',
 	    altText:'메시', caption:'메시', header:'인피니트 볼 만들기',
 	    },
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/메시_인피니트 볼/IMG_3076.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/메시_인피니트 볼/IMG_3076.JPG',
 	    },
     ],
     [
-        {src: process.env.PUBLIC_URL + '/img/메이킹/jake 빙글빙글/IMG_0533.jpg',
+        {src: process.env.PUBLIC_URL + '/img/메이킹/jake 빙글빙글/IMG_0533.JPG',
 	    altText:'jake', caption:'jake', header:'손풍기 제작기',
 	    },
     ],
 
     [
-        {src: process.env.PUBLIC_URL + '/img/메이킹/로이 패션디자인/IMG_1917.jpg',
+        {src: process.env.PUBLIC_URL + '/img/메이킹/로이 패션디자인/IMG_1917.JPG',
 	    altText:'로이', caption:'로이', header:'나만의 패션 Collection',
 	    },
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/로이 패션디자인/IMG_0229.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/로이 패션디자인/IMG_0229.JPG',
 	    },
     ]
 ]
