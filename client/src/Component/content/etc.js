@@ -10,7 +10,7 @@ class making extends Component{
             <>  
                 <div className="main-content">
                     <div className="banner">
-                        <span className="good_word"><span>“ 스스로 알을 깨면 한 마리 병아리가 되지만, 남이 깨주면 계란 프라이가 된다 ”</span><br/><br/>프로젝토리<br/><p>Laboratory for future generation</p></span>
+                        <span className="good_word"><span>“ 창의력을 정의하는 순간 그 의미를 잃게 된다 ”</span><br/><br/>프로젝토리<br/><p>Laboratory for future generation</p></span>
                         <img src={banner_make} alt=""/>
                     </div>
                     <div className="button">
