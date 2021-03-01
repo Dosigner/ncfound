@@ -21,10 +21,10 @@ class ReactstrapModel extends Component{
                     <PaginationLink href={"/ncfound"}>1</PaginationLink>
                 </PaginationItem>
                 <PaginationItem active={this.state.page_num===2} onClick={e=>this.setState({page_num:2})}>
-                    <PaginationLink href={"/make2"} >2</PaginationLink>
+                    <PaginationLink href={'/make2'}>2</PaginationLink>
                 </PaginationItem>
                 <PaginationItem active={this.state.page_num===3} onClick={e=>this.setState({page_num:3})}>
-                    <PaginationLink>3</PaginationLink>
+                    <PaginationLink href={'/draw'}>3</PaginationLink>
                 </PaginationItem>
                 <PaginationItem onClick={e=>this.setState({page_num:3})}>
                     <PaginationLink last/>

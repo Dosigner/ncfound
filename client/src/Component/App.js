@@ -36,11 +36,5 @@ class App extends Component {
             </div>
         );
     }
-}/*
-<Route exact path='/' component={makeRouter}/>
-                    <Route exact path='/draw' component={drawRouter}/>
-                    <Route exact path='/music' component={musicRouter}/>
-                    <Route exact path='/letter' component={letterRouter}/>
-                    <Route exact path='/video' component={videoRouter}/>
-                    <Route exact path='/etc' component={etcRouter}/>*/
+}
 export default App;
