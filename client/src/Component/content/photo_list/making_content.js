@@ -1,13 +1,13 @@
 
 const items=[
     [
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/젤로 크리스마스 트리/IMG_2803.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/젤로 크리스마스 트리/젤로1.JPG',
 	    altText:'Jelo', caption:'Jelo', header:'크리스마스 트리 만들기',
 	    },
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/젤로 크리스마스 트리/IMG_2784.jpg',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/젤로 크리스마스 트리/젤로2.JPG',
 		altText:'Jelo',caption:'Jelo',header:'크리스마스 트리 만들기',
 	    },
-	    {src:process.env.PUBLIC_URL + '/img/메이킹/젤로 크리스마스 트리/IMG_2783.jpg',
+	    {src:process.env.PUBLIC_URL + '/img/메이킹/젤로 크리스마스 트리/젤로3.JPG',
 		altText:'Jelo',caption:'Jelo',header:'크리스마스 트리 만들기',
 	    }
     ],
@@ -20,7 +20,7 @@ const items=[
 	    },
     ],
     [
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/샬롯 키보드/IMG_1890.JPG',
+	    {src: process.env.PUBLIC_URL + '/img/메이킹/샬롯 키보드/샬롯1.JPG',
 	    altText:'샬롯', caption:'샬롯', header:'나만의 키보드 만들기',
 	    },
 	    {src: process.env.PUBLIC_URL + '/img/메이킹/샬롯 키보드/IMG_1888.JPG',
@@ -45,9 +45,6 @@ const items=[
 	    }
     ],
     [
-	    {src: process.env.PUBLIC_URL + '/img/메이킹/바다/바다_엽서만들기.png',
-	    altText:'바다', caption:'바다', header:'프로젝토리 엽서',
-	    },
 	    {src: process.env.PUBLIC_URL + '/img/메이킹/바다/바다_엽서만들기1.JPG',
 		altText:'바다',caption:'바다',header:'프로젝토리 엽서',
 	    },
@@ -59,13 +56,13 @@ const items=[
 	    {src:process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/여름.gif',
 		altText:'여름',caption:'여름',header:'스마트 휴지통',
 	    },
-        {src: process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/IMG_1466.jpg',
+        {src: process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/IMG_1466.JPG',
 	    altText:'여름', caption:'여름', header:'스마트 휴지통',
 	    },
-        {src: process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/IMG_2762.jpg',
+        {src: process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/IMG_2762.JPG',
 	    altText:'여름', caption:'여름', header:'스마트 휴지통',
 	    },
-        {src: process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/IMG_2778.jpg',
+        {src: process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/IMG_2778.JPG',
 
 	    },
 	    {src: process.env.PUBLIC_URL + '/img/메이킹/여름이 스마트 휴지통/IMG_2777.jpg',
