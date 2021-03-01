@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Pagination,PaginationItem, PaginationLink} from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 class ReactstrapModel extends Component{
     constructor(props){
@@ -18,10 +19,14 @@ class ReactstrapModel extends Component{
                     <PaginationLink previous/>
                 </PaginationItem>
                 <PaginationItem active={this.state.page_num===1} onClick={e=>this.setState({page_num:1})}>
-                    <PaginationLink href={"/ncfound"}>1</PaginationLink>
+                    <Link to={'/ncfound'}>
+                        <PaginationLink >1</PaginationLink>
+                    </Link>
                 </PaginationItem>
                 <PaginationItem active={this.state.page_num===2} onClick={e=>this.setState({page_num:2})}>
-                    <PaginationLink href={'/make2'}>2</PaginationLink>
+                    <Link to={'/make2'}>
+                        <PaginationLink >2</PaginationLink>
+                    </Link>
                 </PaginationItem>
                 <PaginationItem active={this.state.page_num===3} onClick={e=>this.setState({page_num:3})}>
                     <PaginationLink href={'/draw'}>3</PaginationLink>
