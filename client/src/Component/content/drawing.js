@@ -1,10 +1,11 @@
 import React, {Component} from 'react'
 import '../../css/making.css';
 import banner_make from '../../img/banner/banner_draw.png';
-import Pagination from "../ReactstrapPagination";
+
 import {Button ,Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap'
 import {UncontrolledCarousel} from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.css'
+
 import below from '../../img/menu/below.png'
 import items from './photo_list/drawing_content'
 
@@ -15,7 +16,7 @@ class making extends Component{
 		super(props);
 		this.state = {
 			modal:false,
-            num:0,
+            num:1,
             page_num:2,
 		}
 	}
@@ -28,10 +29,6 @@ class making extends Component{
         this.setState({modal:!this.state.modal});
     }
     render(){
-        /*const csv=require('csvtojson')
-        csv().fromFile('./data.csv').then((jsonObj)=>{
-            console.log(jsonObj);
-        })*/ 
         return(
             <>
                 <Modal isOpen={this.state.modal} fade={true} style={{background:'rgb(0,111,66)'}} size="lg">
@@ -99,6 +96,22 @@ class making extends Component{
                                 </div>
                             </li>    
                         </ul>
+
+                        <ul className="arc_row">
+                            <li className="wrap_arc_item">
+                                <div className="arc_item 1" onClick={e=>this.toggle(9)} data-text={"윌&짹짹이\n새 그리기"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/drawing/윌.jpg'})`}}>
+                                </div>
+                            </li>
+                            <li className="wrap_arc_item">
+                                <div className="arc_item 1" onClick={e=>this.toggle(10)} data-text={"언행\n세븐틴 컬렉션"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/drawing/세븐틴.jpg'})`}}>
+                                </div>
+                            </li>
+                            <li className="wrap_arc_item">
+                                <div className="arc_item 1" onClick={e=>this.toggle(11)} data-text={"언행\n비투비 컬렉션"} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/drawing/이민혁.jpg'})`}}>
+                                </div>
+                            </li>    
+                        </ul>
+
                     </div>
                     
                     <div className="Pagination">

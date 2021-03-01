@@ -93,11 +93,11 @@ class making extends Component{
                                 </div>
                             </li>
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(7)} data-text={"코체\n자전거 제작기"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/making/코체.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(7)} data-text={"코체\n자전거 제작기"} style={{backgroundImage:`url(${process.env.PUBLIC_URL+'/img/making/코체1.JPG'})`}}>
                                 </div>
                             </li>
                             <li className="wrap_arc_item">
-                                <div className="arc_item 1" onClick={e=>this.toggle(8)} data-text={"베이맥스\n감옥의자 만들기."} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/베이맥스.jpg'})`}}>
+                                <div className="arc_item 1" onClick={e=>this.toggle(8)} data-text={"베이맥스\n감옥의자 만들기."} style={{backgroundImage:`url(${process.env.PUBLIC_URL + '/img/making/베이맥스1.JPG'})`}}>
                                 </div>
                             </li>    
                         </ul>
